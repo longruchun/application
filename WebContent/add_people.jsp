@@ -35,7 +35,7 @@ if(o==null){//说明没有这个建,我们就要创建一个ArrayList,以他存�
 	
 	
 }
-application.getAttribute("humans",list);
+application.setAttribute("humans", list);
 
 response.sendRedirect("userlist.jsp");
 
